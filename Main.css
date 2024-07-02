@@ -1,0 +1,16 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px ;
+
+
+}
+
+.child {
+
+  vertical-align: middle;
+  border: 2px ;
+  width: 520px;
+  align-items: center;
+}
