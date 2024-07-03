@@ -43,25 +43,14 @@ transition:all .17s ease-in-out
 
 }
 
-@media only screen and (max-width: 600px) {
-.navbar {
-wight: 100%;
-height: 70px;
-box-shadow: 0 10px 10px rgba(0,0,0, .1);
-
-}
-
+@media only screen and (max-width: 800px) {
  .navbar-menu li a{
 display: inline-block;
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  margin-left: 40px;
 color:#000;
 opacity:0.6;
 text-decoration:none;
 padding:5px;
-font-size: 20px;
+font-size: 10px;
 transition:all .17s ease-in-out
 
 }
@@ -91,4 +80,19 @@ color:coral;
 transition:all .17s ease-in-out
 }
 
+.user-icon {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
 
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+}
