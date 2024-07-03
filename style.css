@@ -100,6 +100,18 @@ transition:all .17s ease-in-out
   width: 100%;
 
 }
+@media only screen and (max-width: 1200px) {
+ .navbar-menu li a{
+display: inline-block;
+color:#000;
+opacity:0.6;
+text-decoration:none;
+padding:5px;
+font-size: 10px;
+transition:all .17s ease-in-out
+}
 
+
+}
 
 
