@@ -112,7 +112,7 @@ color:#000;
 opacity:0.6;
 text-decoration:none;
 padding:10px;
-font-size: 10px;
+font-size: 20px;
 transition:all .17s ease-in-out
 }
 .navbar {
@@ -122,19 +122,19 @@ box-shadow: 0 10px 10px rgba(0,0,0, .1);
 }
 .navbar-brand{
 font-weight:700;
-font-size: 14px;
+font-size: 24px;
 text-decoration: none;
 color: #000;
 }
 .log-icon {
   position: absolute;
-  right: 40px;
-  height: 20px;
+  right: 70px;
+  height: 40px;
 }
 .reg-icon {
   position: absolute;
-  right: 20px;
-  height: 20px;
+  right: 30px;
+  height: 40px;
 
 }
 }
