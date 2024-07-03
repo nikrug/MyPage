@@ -43,10 +43,10 @@ transition:all .17s ease-in-out
 
 }
 
-@media only screen and (min-width: 300px) and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
 .navbar {
 wight: 100%;
-height: 170px;
+height: 70px;
 box-shadow: 0 10px 10px rgba(0,0,0, .1);
 
 }
