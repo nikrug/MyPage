@@ -43,13 +43,24 @@ transition:all .17s ease-in-out
 
 }
 
-@media only screen and (min-width: 500px) and (max-width: 900px) {
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+.navbar {
+wight: 100%;
+height: 170px;
+box-shadow: 0 10px 10px rgba(0,0,0, .1);
+
+}
+
  .navbar-menu li a{
 display: inline-block;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
 color:#000;
 opacity:0.6;
 text-decoration:none;
-padding:10px;
+padding:5px;
 font-size: 20px;
 transition:all .17s ease-in-out
 
