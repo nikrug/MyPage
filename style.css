@@ -145,13 +145,13 @@ color: #000;
 }
 .log-icon {
   position: absolute;
-  right: 40px;
-  height: 20px;
+  right: 5px;
+  height: 5px;
 }
 .reg-icon {
   position: absolute;
-  right: 20px;
-  height: 20px;
+  right: 10px;
+  height: 10px;
 
 }
 }
