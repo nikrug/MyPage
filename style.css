@@ -1,3 +1,4 @@
+
 body{
 position:relative;
 line-height: 1.4;
@@ -37,8 +38,22 @@ color:#000;
 opacity:0.6;
 text-decoration:none;
 padding:50px;
-font-size: 36px;
+font-size: 30px;
 transition:all .17s ease-in-out
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+ .navbar-menu li a{
+display: inline-block;
+color:#000;
+opacity:0.6;
+text-decoration:none;
+padding:10px;
+font-size: 20px;
+transition:all .17s ease-in-out
+
+}
 }
 .navbar-menu li a:hover{
 opacity:1;
@@ -64,3 +79,5 @@ color: #000;
 color:coral;
 transition:all .17s ease-in-out
 }
+
+
