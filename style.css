@@ -109,7 +109,8 @@ transition:all .17s ease-in-out
 .intro
 {
 position: relative;
-top:15px;
+top: 10px;
+
 }
 @media only screen and (max-width: 1100px) {
  .navbar-menu li a{
@@ -148,9 +149,16 @@ color: #000;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 10px;
 }
+.intro
+{
+position: relative;
+top: 10px;
+left:-300px;
+
+}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
  .navbar-menu li a{
 display: inline-block;
 color:#000;
@@ -186,13 +194,14 @@ color: #000;
 {
 position: relative;
 top: 10px;
-
+left:-720px
 }
 .image-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 10px;
 }
+
 }
 
 
