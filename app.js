@@ -7,8 +7,8 @@ VANTA.BIRDS({
                 touchControls: true,
                 gyroControls: true,
                 forceAnimate: true,
-                minHeight: 1900.00,
-                minWidth: 1080.00,
+                minHeight: 1200.00,
+                minWidth: 200.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
                 color1: 0xde0707,
@@ -16,6 +16,6 @@ VANTA.BIRDS({
                 birdSize: 0.60,
                 separation: 114.00,
                 alignment: 26.00,
-                backgroundAlpha: 0
+
 
 })
