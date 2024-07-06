@@ -51,12 +51,21 @@ opacity:1;
 display:flex;
 justify-content: center;
 align-items: center;
-margin-top: 150px;
 background:transparent;
 border:2px solid black; rgb(255,255,255, .2);
-background-filter:blur(20px);
+background-filter:blur(60px);
 box-shadow:0 0 10px black;
 border-radius:20px;
+width: 30%;
+margin-top:250px;
+margin-left:900px;
+
+
+}
+.background-login{
+  background-image: url('https://neilturner.me.uk/wp-content/uploads/2023/12/f4f7eed6-9b50-4b94-82dc-39c33e522f45.jpg'); /* Устанавливаем изображение в качестве фона */
+  background-size: cover; /* Масштабируем изображение, чтобы оно занимало всю площадь контейнера */
+  background-repeat: no-repeat;
 }
 .wrapper h1{
 font-size:36px;
